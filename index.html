@@ -6,10 +6,11 @@
 	<meta name="viewport" 
 		  content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<link rel="stylesheet" 
+	<!--<link rel="stylesheet" 
 		  href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
 		  integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" 
-		  crossorigin="anonymous">
+		  crossorigin="anonymous">-->
+		   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 </head>
 <body>
 	<div class="container-fluid">
@@ -21,15 +22,34 @@
 			</header>
 		</div>
 
-		<div class="row bg-primary">
-			<nav class="navbar-fixed-top">
+		<div class="row">
+		<!--	<nav class="navbar-fixed-top">
 				<p>//nav  (Será horizontal y posiblemente en cascada con subsecciones)</p>
 				<ul>
 					<li>Sobre mi</li>
 					<li>Estudios</li>
 					<li>Proyectos</li>
 				</ul>
-			</nav>
+			</nav>-->
+
+			<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Page 1</a></li>
+      <li><a href="#">Page 2</a></li>
+    </ul>
+    <form class="navbar-form navbar-left" action="/action_page.php">
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Search">
+      </div>
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+  </div>
+</nav>
 		</div>
 
 		<div class="row">
@@ -49,7 +69,7 @@
 		</div>
 	</div>
 
-	<!--Scripts Obligatorios para BootStrap-->
+	<!--Scripts Obligatorios para BootStrap
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
 			integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
 			crossorigin="anonymous">
@@ -61,7 +81,9 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" 
 			integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" 
 			crossorigin="anonymous">
-	</script>
+	</script>-->
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 </body>
 </html>
